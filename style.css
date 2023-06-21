@@ -3,6 +3,10 @@
     font-family: 'Geologica', sans-serif;
 }
 
+body{
+    background: #dfe4ea;
+}
+
 .upper-heading{
     background-color:rgba(0, 0, 0,.9);    
     color: white;
