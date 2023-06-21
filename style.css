@@ -272,3 +272,18 @@ i{
 ::-webkit-scrollbar:horizontal{
     display: none;
 }
+
+@media only screen and (max-width:500px) {
+
+    .main{
+        justify-content: flex-start;
+    }
+    .info h1{
+        font-size: 24px;
+}
+     .info p{
+    font-size: 11px;
+    width: 145px;
+}
+   
+}
