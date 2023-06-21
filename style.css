@@ -159,6 +159,10 @@ body{
     
 }
 
+.items{
+    background-color: transparent;
+}
+
 .mobileSec .card button{
     margin-bottom: 0;
 }
