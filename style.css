@@ -52,6 +52,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    position: relative;
 }
 
 .main .info{
@@ -111,6 +112,27 @@ body{
     transform: translate(-50%,50%);
     z-index: 999;
     
+}
+
+.custom-shape-divider-bottom-1687349860 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1687349860 svg {
+    position: relative;
+    display: block;
+    width: calc(155% + 1.3px);
+    height: 101px;
+}
+
+.custom-shape-divider-bottom-1687349860 .shape-fill {
+    fill: #dfe4ea;
 }
 
 
@@ -224,6 +246,7 @@ body{
     object-fit: cover;
     object-position: top center;
 }
+
 
 
 @keyframes upperH {
